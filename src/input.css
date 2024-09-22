@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_list{
+  @apply  hover:bg-[#fff9e6] py-10 px-2;
+}
+.nav_link{
+  @apply  text-base leading-6 font-medium text-black font-ubuntu hover:text-[#ffc712];
+}
+
+
+/* *================ blogs start ================ */
+.blogs_para{
+  @apply font-ubuntu text-[20px] leading-[26px] font-medium pb-[22px] group-hover:text-whitecolor;
+}
+.blogs_anchor{
+  @apply font-ubuntu font-medium text-[16px] leading-[26px] pb-[31px] text-[#777777] group-hover:text-whitecolor;
+}
+.blogs_span{
+  @apply text-[14px] leading-6 font-ubuntu font-normal py-5 inline-block text-[#777777] group-hover:text-whitecolor;
+}
+/* *================ blogs end ================ */
+
+
+/* *================ footer ================ */
+.link_icon{
+  @apply flex justify-center items-center border border-primary text-primary rounded-full w-[40px] h-[40px];
+}
+.footer_heading{
+  @apply text-[20px] font-ubuntu font-medium leading-6 text-[#222222];
+}
+.footer_para{
+  @apply text-[14px] leading-6 font-open_sans font-normal text-[#777777] py-[30px];
+}
+.footer_item{
+  @apply text-[14px] leading-[42px] font-open_sans font-semibold text-[#444444];
+}
+
